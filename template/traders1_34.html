@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/traders.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>Equity Trading</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(33, 31, 31);
+            font-family: sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            background-color: rgba(33, 31, 31, 0.658);
+            width: 100%;
+            z-index: 1;
+            color: orange;
+        }
+        
+        nav .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 7%;
+        }
+        
+        nav .logo img {
+            width: 80px;
+            height: 80px;
+            margin-top: -5px;
+        }
+        
+        nav .logo h1 {
+            margin-top: 3px;
+        }
+        
+        .list {
+            margin-left: 23%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        nav .list ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav .list ul li {
+            cursor: pointer;
+            margin: 15px;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+        
+        nav .list ul li:hover {
+            color: white;
+        }
+        
+        nav .list ul li a {
+            text-decoration: none;
+            color: orange;
+        }
+        
+        nav .list ul li a:hover {
+            color: white;
+        }
+        
+        .data {
+            height: 100vh;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+        
+        .table_content ol {
+            height: 100vh;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+        
+        .table_content ol::-webkit-scrollbar {
+            width: 15px;
+            border: 2px solid rgba(59, 59, 57, 0.688);
+            border-radius: 30px;
+        }
+        
+        .table_content ol::-webkit-scrollbar-thumb {
+            background-color: rgba(134, 244, 141, 0.56);
+            border-radius: 30px;
+        }
+        
+        .data::-webkit-scrollbar {
+            width: 15px;
+            border: 2px solid rgba(59, 59, 57, 0.688);
+            border-radius: 30px;
+        }
+        
+        .data::-webkit-scrollbar-thumb {
+            background-color: rgba(134, 244, 150, 0.963);
+            border-radius: 30px;
+        }
+        
+        .data .ima {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/static/image/LOGO3.png" alt="..." />
+            <h1>Today Trade<br />Academy</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>About Us</li>
+                <li><a href="#">Online Course</a></li>
+
+
+                <li><a href="#">Notification</a></li>
+                <li><a href="contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main_content">
+        <div class="table_content">
+            <ol>
+                <li id="tit"><img src="/static/image/tableofcontent.jpg" alt="">TABLE OF CONTENT</li>
+                <hr /> {% for i in courses %}
+                <a style="text-decoration: none;" href="/traders1_34/{{i.id}}">
+                    <li>{{i.title}}</li>
+                </a>
+                {% endfor %}
+            </ol>
+        </div>
+
+        <div class="data" id="p1">
+
+            <h2>{{course.title}}</h2>
+            <hr>
+            <div class="ima">
+                <img style="width: 60vw; height: 45vh;" src="../static/{{course.image1}}" alt="">
+            </div>
+            <p>{{course.desc | safe}}</p>
+
+            <hr />
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="bottom-logo">
+            <h2>Our Platforms</h2>
+            <h1>TODAY TRADE ACADEMY</h1>
+        </div>
+        <div class="explore">
+            <h2>Explore</h2>
+            <ul>
+                <a href="/">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>About Us</li>
+                </a>
+                <a href="">
+                    <li>Online Course</li>
+                </a>
+
+                <a href="contact-us">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="address">
+            <h2>Address</h2>
+            <p>
+                <img src="/static/image/location.png" alt="loading...">
+                <p>Malviya Nagar, Jaipur, Rajasthan 302017</p>
+            </p>
+            <p><img src="/static/image/telephone-call.png" alt=""><br>+91 9784167490</p>
+            <p>+91 9352641216</p>
+            <p><img src="/static/image/email.png" alt=""><br>pkboss9729@gmail.com</p>
+            <p>narendrago999@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

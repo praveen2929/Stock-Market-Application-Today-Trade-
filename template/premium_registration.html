@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today Trade - everyday trading update</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css" />
+  <link rel="icon" href="/static/image/LOGO3.png">
+  <script src="/static/index.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("cZ3w9f_yJcBTVPwGW");
+        })();
+    </script>
+    <style>
+        nav{
+            position: static;
+        }
+        .main-content{
+            margin-top: 180px;
+        }
+       .services{
+        display: block;
+       }
+        .services ul{
+            color: white;
+        }
+        .service ul li{
+            border-bottom: 1px dashed orange;
+        }
+        .service{
+           padding: 50px;
+        }
+       
+        .service button{
+            color: black;
+            text-decoration:none ;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: orange;
+            padding: 6px;
+            margin: 10px 150px;
+            margin-top: 10px;
+           
+            cursor: pointer;
+        }
+        .service input, textarea{
+            background: none;
+            outline: none;
+            font-size: 20px;
+            padding: 5px;
+            border: none;
+            width: 100%;
+            color: white;
+        }
+        #serv{
+          font-size: 40px;
+        }
+        .service a button:hover{
+          background-color: aliceblue;
+          transition: 0.3s ease;
+        }
+        .service fieldset{
+            border-color: orange;
+            margin: 5px auto;
+            
+            
+        }
+        .service fieldset legend{
+            color: white;
+            font-size: 18px;
+        }
+        .service h3{
+            background-color: rgb(56, 51, 52);
+            margin: -30px;
+            margin-bottom: 40px;
+            font-size: 30px;
+            color: orange;
+            
+
+        }
+        #wrong{
+          color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+  <!-- NAV BAR CODE -->
+
+
+
+  <nav>
+    <div class="logo">
+      <img src="/static/image/LOGO3.png" alt="..." />
+      <h1>Today Trade<br />Academy</h1>
+    </div>
+    <div class="list">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>About Us</li>
+        <li><a href="#">Online Course</a></li>
+
+        <li><a href="#">Notification</a></li>
+        <li><a href="contact-us">Contact Us</a></li>
+      </ul>
+  
+    </div>
+  </nav>
+
+
+  <!-- NAV BAR END -->
+
+
+  
+
+
+  <!-- SERVICES START -->
+
+
+  <div class="main-content">
+    <h2 id="serv">Service Registration Form</h2>
+    <div class="services">
+        <div class="service">
+          <h3>Fill The Details</h3>
+          <fieldset>
+              <legend>Full Name</legend>
+              <input type="text" id="fullName" required>
+          </fieldset>
+          <fieldset>
+              <legend>Email</legend>
+              <input type="email" id="email_id" required>
+          </fieldset>
+          <fieldset>
+              <legend>Number</legend>
+              <input type="number"id="number" required>
+          </fieldset>
+          <fieldset>
+              <legend>Address</legend>
+              <textarea  id="address" cols="30" rows="4"required></textarea>
+          </fieldset>
+          <fieldset>
+              <legend>Course Name</legend>
+              <input type="text" id="course" required>
+          </fieldset>
+          <button type="sub
+          " onclick="Course()">SUBMIT</button>
+          <div id="wrong"></div>
+
+      </div>    
+
+    </div>
+  </div>
+
+  <!-- SERVICE END -->
+
+  
+
+
+    <!-- FOOTER SECTION START -->
+    
+    <div class="footer">
+      <div class="bottom-logo">
+        <h2>Our Platforms</h2>
+        <h1>TODAY TRADE ACADEMY</h1>
+      </div>
+      <div class="explore">
+        <h2>Explore</h2>
+        <ul>
+          <a href="/"><li>Home</li></a>
+          <a href=""><li>About Us</li></a>
+          <a href=""><li>Online Course</li></a>
+          
+          <a href="contact-us"><li>Contact Us</li></a>
+        </ul>
+      </div>
+      <div class="address">
+        <h2>Address</h2>
+        <p>
+        <img src="/static/image/location.png" alt="loading...">
+        <p>Malviya Nagar, Jaipur, Rajasthan 302017</p>
+        </p>
+      <p><img src="/static/image/telephone-call.png" alt=""><br>+91 9784167490</p>
+      <p>+91 9352641216</p>
+      <p><img src="/static/image/email.png" alt=""><br>pkboss9729@gmail.com</p>
+      <p>narendrago999@gmail.com</p>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    <!-- FOOTER SECTION END -->
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
