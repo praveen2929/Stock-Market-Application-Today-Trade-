@@ -1,0 +1,109 @@
+
+nav{
+    position: static;
+}
+.contact{
+    background: url(../image/contact\ bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+}
+.contact h1{
+    padding-top: 60px;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.contact p{
+    opacity: 0.7;
+    margin: 0;
+    font-weight: bold;
+}
+svg{
+    fill: orange;
+   width: 40px;
+   height: 40px;
+   margin: 20px;
+   padding: 20px;
+  
+}
+.container1{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    padding: 0 15vw;
+}
+
+.add1{
+    width: 48%;
+}
+.add1 h3{
+    font-family: sans-serif;
+    color: rgba(255, 166, 0, 0.512);
+   transform: translateY(15px);
+
+}
+.add1 h1{
+    color: orange;
+    font-size: 45px;
+}
+.add1 p{
+    color: white;
+    opacity: 0.7;
+}
+.add1 h2{
+    color: orange;
+}
+.address1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.address1:hover svg{
+    background-color: orange;
+    fill: white;
+    transition: 0.6s ease;
+}
+.form1{
+    background: url(../image/contact\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78vh;
+    border-radius: 6px;
+    width: 52%;
+}
+.inputs h1{
+    color: orange;
+    margin: 35px;
+    
+}
+.inputs input{
+    width: 88%;
+    padding: 10px 20px;
+    font-size: 19px;
+    margin: 10px 35px;
+    border-radius: 6px;
+    outline: none;
+    background: none;
+    border-color: rgba(255, 166, 0, 0.847);
+}
+.inputs input[type=submit]{
+    width: max-content;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 40px 35px;
+    background-color: orange;
+    color: black;
+    border: none;
+    outline: none;
+}
+.inputs input[type=submit]:hover{
+    
+    background-color: rgb(241, 199, 122);
+    transition: 0.6s ease;
+   
+}

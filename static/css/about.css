@@ -1,0 +1,92 @@
+
+.container-slide{
+   margin: auto;
+    padding-top: 25vh;
+    width: 80vw;
+    display: flex;
+   
+    
+}
+.container-slide p{
+    width: 40vw;
+}
+.about-todaytrade{
+    margin: 0;
+    background: url(../image/about2.jpg);
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    padding: 0 30px;
+    background-size: cover;
+}
+.about-todaytrade p{
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.about-todaytrade h1{
+    color: orange;
+   
+}
+.expert{
+    text-align: center;
+    margin: auto;
+}
+.expert img{
+    width: 15vw;
+}
+.ab-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.expert p{
+    width: 30vw;
+    color: white;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 10px;
+    transform: translateY(-10px);
+   padding: 5px;
+    
+}
+.name p {
+    color: orange;
+    font-size: 25px;
+    transform: translateY(2px);
+}  
+.name{
+    border-bottom: 2px dashed orange;
+    border-top: 2px dashed orange;
+}
+.about-content h1{
+    color: orange;
+    text-align: center;
+    margin: 70px;
+    position: relative;
+
+
+}
+.about-content h1::after{
+    content: "";
+    width: 400px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    opacity: 0.8;
+}
+.about-content h1::before{
+    content: "";
+    width: 400px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    opacity: 0.8;
+}

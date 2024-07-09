@@ -1,0 +1,1096 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 31, 31);
+    font-family: sans-serif;
+}
+
+
+/* NAV CSS START */
+
+nav {
+    display: flex;
+    /* background-color: rgba(33, 31, 31, 0.658); */
+    background: url("../image/navphoto5.jpg");
+    background-size: contain;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    color: orange;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+}
+
+nav .logo img {
+    width: 80px;
+    height: 80px;
+    margin-top: -5px;
+}
+
+nav .logo h1 {
+    margin-top: 3px;
+}
+
+.list {
+    margin-left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .list ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .list ul li {
+    cursor: pointer;
+    margin: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav .list ul li:hover {
+    color: white;
+}
+
+nav .list ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+nav .list ul li a:hover {
+    color: white;
+}
+
+
+/* NAV CSS END */
+
+
+/* message section start*/
+
+
+/* .message{
+    color: red;
+    width: 100%;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 400;
+  } */
+
+
+/* message section end*/
+
+
+/* VIDEO CSS START */
+
+.main-container {
+    width: 100%;
+    opacity: 0.9;
+}
+
+.main-container video {
+    position: absolute;
+    z-index: -1;
+    width: 98.9vw;
+    box-shadow: 0 0 30px 10px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 3px dashed red;
+    border-left: none;
+}
+
+.content {
+    width: 60%;
+    background: none;
+    text-align: left;
+    color: white;
+    padding-top: 400px;
+}
+
+.content h1 {
+    margin: 30px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: greenyellow;
+}
+
+.content p {
+    margin: 30px;
+    width: 640px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.content button {
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: orange;
+    color: black;
+    font-size: 17px;
+    margin: 0px 0px 30px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content button a {
+    background: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content button:hover {
+    background-color: red;
+    transition: 0.3s ease;
+    border: 3px solid orange;
+}
+
+
+/* VIDEO CSS END */
+
+
+/* EXPLORE CSS START */
+
+.main-content {
+    margin-top: 250px;
+}
+
+.main-content .cont {
+    width: 100%;
+}
+
+.main-content h2 {
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: 290px;
+    font-size: 60px;
+    color: orange;
+    border-bottom: 2px dashed orange;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.cont a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    box-shadow: 0 0 30px 1px rgb(132, 65, 194);
+    padding: 20px;
+}
+
+.btn img {
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.btn {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: orange;
+    height: 300px;
+    width: 300px;
+}
+
+.btn:hover {
+    width: 300px;
+    height: 300px;
+    transition: 0.3s ease;
+}
+
+
+/* EXPLORE CSS END */
+
+
+/* JOURNEY SECTION START */
+
+.journey {
+    margin-top: 250px;
+}
+
+.journey h2 {
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    margin: 62px;
+    border-bottom: 1px solid orange;
+    padding: 8px;
+}
+
+.journey .boxs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.boxs .box1 {
+    margin: auto;
+    width: 400px;
+    box-shadow: 0px 0px 30px 1px;
+    padding: 40px 0;
+    text-align: center;
+    height: 270px;
+    cursor: pointer;
+}
+
+.journey video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.1;
+    margin-top: -30px;
+}
+
+.boxs a {
+    text-decoration: none;
+    width: max-content;
+    margin: 150px auto;
+    height: 350px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxs .box1:hover {
+    width: 450px;
+    height: 300px;
+    transition: 0.6s ease;
+}
+
+.boxs .box1 h1 {
+    background-color: orange;
+    width: max-content;
+    padding: 12px;
+    border-radius: 40px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box1 img {
+    width: 150px;
+}
+
+.boxs .box1 h1:hover {
+    cursor: pointer;
+    background-color: rgb(75, 65, 45);
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+/* JOURNEY SECTION END */
+
+
+/* COURSE CSS START */
+
+.courseS {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    /* height: 240px; */
+}
+
+.course {
+    color: orange;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 0 50px 1px black;
+    font-family: sans-serif;
+    padding: 12px;
+    width: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.course-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.course-details li {
+    border-bottom: 1px dashed orange;
+    width: 100%;
+    padding: 2px;
+}
+
+.course-details li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.course .course-details ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.course .title img {
+    width: 35px;
+}
+
+.course .title i {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid orange;
+}
+
+.course .course-details ul li a:hover {
+    color: blue;
+    transition: 0.3S ease;
+}
+
+
+/* COURSE CSS END */
+
+
+/* SERVICES CSS START */
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.services .service {
+    margin: auto;
+    box-shadow: 0px 0px 50px 1px;
+    width: 400px;
+}
+
+.service h3 {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.service ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.service ul a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.service ul li {
+    border-bottom: 1px solid orange;
+    margin: 25px 0;
+    padding: 10px 0;
+}
+
+.service ul li:hover {
+    background-color: rgba(95, 93, 93, 0.507);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#serv {
+    margin-top: -100px;
+}
+
+#serv1 {
+    margin-top: -100px;
+}
+
+
+/* COURSE CSS END */
+
+
+/* FEATURE CSS START */
+
+.reason h2 {
+    color: orange;
+    font-size: 40px;
+    border-bottom: 1px solid orange;
+    padding: 30px 0 10px 0px;
+    margin: 60px;
+}
+
+.reason ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reason ul li {
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+}
+
+.reason ul ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reason li img {
+    width: 40px;
+    margin: 8px;
+}
+
+.reason .features .feature img {
+    width: 60px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.features .feature {
+    text-align: center;
+    width: 300px;
+    color: orange;
+    margin: 20px auto;
+}
+
+.feature p {
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+
+.feature h3 {
+    font-size: 23px;
+    border-bottom: 1px dashed orange;
+}
+
+
+/* FEATURE CSS END */
+
+
+/* ACHIEVEMENT CSS START */
+
+.reason h2 img {
+    width: 50px;
+    margin-bottom: -9px;
+    border-radius: 50%;
+}
+
+.achievement-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    padding: auto;
+}
+
+.achievement-main .achievement {
+    margin: auto;
+    width: 500px;
+    padding: 30px;
+}
+
+.achievement .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: auto;
+    color: orange;
+    border: 3px dashed white;
+    opacity: 0.8;
+}
+
+.achievement p {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+
+/* ACHIEVEMENT CSS END */
+
+
+/* CONTACT FORM CSS START */
+
+.reason .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: url("../image/formfilll.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 6px;
+
+}
+
+.reason .form input {
+    margin: 18px auto;
+    padding: 15px;
+    font-size: 18px;
+outline: none;
+    width: 60%;
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+
+.reason .form textarea {
+    margin: 18px auto;
+    padding: 15px;
+    width: 60%;
+    border: 2px solid orange;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+}
+
+.reason button {
+    margin: 18px 0;
+    padding: 15px;
+    font-size: 18px;
+    width: 25%;
+    font-weight: 600;
+    background: linear-gradient(180deg, white,orange,orange, rgba(89, 88, 88, 0.589) );
+
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.reason .form button:hover {
+    background-color: rgb(145, 109, 36);
+    transition: 0.3s ease;
+}
+
+
+
+/* CONTACT FORM CSS END */
+
+
+/* FOOTER CSS START */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.address,
+.bottom-logo,
+.explore {
+    width: 500px;
+}
+
+.footer .explore ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .explore h2,
+.address h2,
+.bottom-logo h2 {
+    color: white;
+    border-bottom: 1px solid orange;
+}
+
+.footer .address img {
+    width: 26px;
+    margin: 8px 0;
+}
+
+.footer .address p {
+    color: white;
+}
+
+.footer .explore ul a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer .explore ul a li {
+    padding: 6px 0;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.footer .explore ul a li:hover {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.footer .bottom-logo h1 {
+    color: orange;
+    font-size: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* FOOTER CSS END */
+
+
+@media screen and (max-width:500px) {
+
+    
+/* NAV CSS START */
+
+nav {
+    display: block;
+    background-repeat: no-repeat;
+    height: 3rem;
+    background-size: cover;
+}
+
+nav .logo {
+    display: flex;
+   justify-content: left;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 3rem;
+    height: 3rem;
+   
+}
+
+nav .logo h1 {
+    margin-top: 3px;
+    font-size: 1rem;
+}
+
+.list {
+    margin-left: 23%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .list ul {
+    display: none;
+    list-style: none;
+}
+
+nav .list ul li {
+    cursor: pointer;
+    margin: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav .list ul li:hover {
+    color: white;
+}
+
+nav .list ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+nav .list ul li a:hover {
+    color: white;
+}
+
+
+/* NAV CSS END */
+
+
+/* message section start*/
+
+
+/* .message{
+    color: red;
+    width: 100%;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 400;
+  } */
+
+
+/* message section end*/
+
+
+/* VIDEO CSS START */
+
+.main-container {
+    width: 100%;
+}
+
+
+
+.box {
+    background-color: rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 3px dashed red;
+    border-left: none;
+    padding: 0.5rem;
+}
+
+.content {
+    width: 65%;
+    background: none;
+    text-align: left;
+    color: white;
+    padding-top: 130px;
+
+}
+
+.content h1 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: greenyellow;
+}
+
+.content p {
+    margin: 0px;
+    width: 100%;
+    text-align: justify;
+    line-height: 0.82rem;
+    word-spacing: 0.0001rem;
+    font-size: 0.8rem;
+}
+
+.content button {
+    padding: 5px;
+    font-size: 10px;
+    margin: 15px 0px 5px 0px;
+}
+
+
+/* VIDEO CSS END */
+
+
+
+
+/* JOURNEY SECTION START */
+
+.journey {
+    margin-top: 0px;
+}
+
+.journey h2 {
+    text-align: center;
+    color: orange;
+    font-size: 1rem;
+    margin: 2rem 0px;
+    border-bottom: 1px solid orange;
+    padding: 8px;
+}
+
+.journey .boxs {
+    display: block;
+}
+
+.boxs .box1 {
+    margin: 50px auto;
+    width: 250px;
+    box-shadow: 0px 0px 30px 1px;
+    padding: 10px 0;
+    text-align: center;
+    height: 210px;
+    cursor: pointer;
+}
+
+.journey video {
+  display: none;
+}
+
+.boxs .box1:hover {
+    width: 250px;
+    height: 210px;
+    transform: translateY(4px);
+    transition: 0.6s ease;
+}
+
+.boxs .box1 h1 {
+    background-color: orange;
+    width: max-content;
+    padding: 12px;
+    border-radius: 40px;
+    font-size: 0.59rem;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box1 img {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.boxs .box1 h1:hover {
+    cursor: pointer;
+    background-color: rgb(75, 65, 45);
+    color: white;
+    transition: 0.3s ease;
+}
+
+
+/* JOURNEY SECTION END */
+
+
+.reason ul {
+    display: block;
+    margin-top: -20PX;
+}
+
+
+.reason ul li {
+    color: white;
+    margin: 0px 20px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 0px;
+}
+
+
+
+.reason li img {
+    width: 30px;
+    margin:  5px;
+}
+
+
+/* FEATURE CSS START */
+
+.reason h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 60px 0;
+}
+
+
+
+.features {
+    display: block;
+}
+.feature p {
+    font-size: 0.8rem;
+}
+.feature img{
+    margin-top: 10px;
+}
+
+
+
+.feature h3 {
+    font-size: 1rem;
+    border-bottom: 1px dashed orange;
+    margin-bottom: -10px;
+}
+
+
+/* FEATURE CSS END */
+
+
+/* ACHIEVEMENT CSS START */
+
+.reason h2 img {
+    width: 50px;
+    margin-bottom: -9px;
+    border-radius: 50%;
+}
+
+.achievement-main {
+    display: block;
+}
+
+.achievement-main .achievement {
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.achievement .circle {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.achievement p {
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+
+/* ACHIEVEMENT CSS END */
+
+
+/* CONTACT FORM CSS START */
+
+.reason .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url("../image/formfilll.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 6px;
+
+}
+
+.reason .form input {
+    margin: 18px auto;
+    padding: 15px;
+    font-size: 18px;
+outline: none;
+    width: 60%;
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+
+.reason .form textarea {
+    margin: 18px auto;
+    padding: 15px;
+    width: 60%;
+    border: 2px solid orange;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+}
+
+.reason button {
+    margin: 18px 0;
+    padding: 15px;
+    font-size: 18px;
+    width: 25%;
+    font-weight: 600;
+    background: linear-gradient(180deg, white,orange,orange, rgba(89, 88, 88, 0.589) );
+
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.reason .form button:hover {
+    background-color: rgb(145, 109, 36);
+    transition: 0.3s ease;
+}
+
+
+
+
+/* CONTACT FORM CSS END */
+
+
+/* FOOTER CSS START */
+
+.footer {
+    display: block;
+}
+
+.address,
+.bottom-logo,
+.explore {
+    width: 500px;
+}
+
+.footer .explore ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .explore h2,
+.address h2,
+.bottom-logo h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid orange;
+}
+
+.footer .address img {
+    width: 26px;
+    margin: 8px 0;
+}
+
+.footer .address p {
+    color: white;
+    text-align: center;
+}
+
+.footer .explore ul a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer .explore ul a li {
+    padding: 6px 0;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .explore ul a li:hover {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.footer .bottom-logo h1 {
+    color: orange;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* FOOTER CSS END */
+
+
+}
